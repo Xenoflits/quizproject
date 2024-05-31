@@ -11,5 +11,5 @@ for questions in new_question_list:
     print(questions["answer"])
 
 game = QuizBrain(new_question_list)
-while QuizBrain.still_has_questions:
-    game.next_question()
+# while QuizBrain.still_has_questions:
+game.next_question()
